@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Project Checkpoint Report
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+For this checkpoint project, I created a web application using Express.js and React.js. The goal was to build a web application with three main pages: Home, Our Services, and Contact us. Each page contains a navbar with links to the other pages. Additionally, the web application should only be available during working hours (Monday to Friday, from 9 AM to 5 PM).
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Implementation Details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend (Express.js)
 
-### `npm test`
+- Utilized Express.js to create a server and handle routes.
+- Implemented custom middleware to verify the time of the request. This middleware restricts access to the web application outside of working hours.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend (React.js)
 
-### `npm run build`
+- Developed the frontend using React.js.
+- Created three main components for the Home, Services, and Contact pages.
+- Implemented React Router to handle navigation between pages.
+- Integrated a Navbar component that appears on top of each page and contains links to the Home, Services, and Contact pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Styling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Styled the web application using CSS to achieve a modern, professional, and dark futuristic look.
+- Applied CSS styles to the Navbar component to ensure it matches the overall design of the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Evaluation Criteria
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project will be evaluated based on the following criteria:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Navbar Created in Each Page**: Implemented a Navbar component that appears on each page with links to Home, Services, and Contact pages.
+  
+2. **Use of Middleware**: Utilized custom middleware in Express.js to restrict access to the web application outside of working hours.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Pure CSS**: Applied CSS styles to achieve a modern, professional, and dark futuristic design for the web application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Conclusion
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In summary, I successfully completed the checkpoint project by building a web application with Express.js and React.js. The application includes three main pages with a Navbar component, restricted access during non-working hours using middleware, and styled with CSS to achieve a visually appealing design.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Overall, I am satisfied with the outcome of the project and confident that it meets the specified requirements.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
